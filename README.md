@@ -68,12 +68,12 @@
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=rafaelponcianocavalcanti-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Rafael's GitHub Stats" height="170" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rafaelponcianocavalcanti-coder&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="170" />
+<img src="https://github-readme-stats.vercel.app/api?username=lponcianocavalcanti-coder&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="l's GitHub Stats" height="170" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Rafael-Ponciano&layout=compact&theme=tokyonight&hide_border=true&count_private=true" alt="Top Languages" height="170" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=rafaelponcianocavalcanti-coder&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rafael-Ponciano&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 
 </div>
 
