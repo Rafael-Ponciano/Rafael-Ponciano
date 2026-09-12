@@ -25,7 +25,7 @@
 
 <br/>
 
-## 🎯 Sobre mim & Áreas de Atuação
+## 🎯 Especialidades & Áreas de Atuação
 
 - 📊 **Business Intelligence & Dashboards Executivos:** Desenho, modelagem e sustentação de painéis analíticos no **Looker Studio**, monitorando KPIs críticos como *On-Time Delivery (OTD)* logístico, faturamento e margem de sellers, metas comerciais escalonadas (Meta 2 B2M), saúde e recorrência de carteira de clientes, e acompanhamento de inadimplência/recuperação de crédito.
 - 🏛️ **Modelagem Dimensional & Lakehouse no BigQuery:** Estruturação e manutenção da arquitetura em medalhão (**Bronze ➔ Silver ➔ Gold**) no **Google BigQuery**, consolidando fatos de negócio (pedidos no grão item, compras, devoluções, fretes, financeiro) e criando views analíticas otimizadas para consumo de BI de alta performance.
@@ -38,48 +38,44 @@
 
 <div align="center">
 
-### **Business Intelligence & Visualização**
-![Looker Studio](https://img.shields.io/badge/Looker_Studio-4285F4?style=for-the-badge&logo=google&logoColor=white)
-![Google Cloud Platform](https://img.shields.io/badge/Google_Cloud_Platform-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Google BigQuery](https://img.shields.io/badge/Google_BigQuery-669DF6?style=for-the-badge&logo=google-bigquery&logoColor=white)
-![Google Sheets API](https://img.shields.io/badge/Google_Sheets_API-34A853?style=for-the-badge&logo=googlesheets&logoColor=white)
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=py,postgres,gcp,git,github,fastapi,flask,ts,react,vite,tailwind,html,css&theme=dark" alt="Stack Tecnológica" />
+</p>
 
-### **Linguagens & Modelagem de Dados**
-![SQL](https://img.shields.io/badge/SQL_Avançado-CC292B?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
-![Python](https://img.shields.io/badge/Python_Analytics-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
-
-### **Automação, APIs & Ambientes**
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![REST APIs](https://img.shields.io/badge/REST_APIs-005571?style=for-the-badge&logo=postman&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+| Domínio | Ferramentas & Tecnologias |
+|:---|:---|
+| **BI & Analytics** | Google Looker Studio, Google Cloud Platform (GCP), Google BigQuery, Google Sheets API |
+| **Modelagem & Banco de Dados** | SQL Avançado (Window Functions, CTEs), PostgreSQL, Supabase, SQLite |
+| **Engenharia & Automação** | Python (Pandas, NumPy, BigQuery SDK), REST APIs, FastAPI, Flask, Webhooks |
+| **DevOps & Versionamento** | Git, GitHub, Linux / Bash, Docker |
 
 </div>
 
 ---
 
-## 📊 Estatísticas & Competências
+## 📊 Visão Geral de Competências & Linguagens
 
-<div align="center">
+<table border="0" width="100%" cellpadding="0" cellspacing="0">
+  <tr>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <img src="./assets/bi_metrics.svg" alt="Especialidades de BI" width="100%" />
+    </td>
+    <td width="50%" align="center" style="border: none; padding: 6px;">
+      <img src="./assets/languages.svg" alt="Linguagens Mais Utilizadas" width="100%" />
+    </td>
+  </tr>
+</table>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=py,postgres,gcp,git,github,fastapi,flask,ts,react,vite,tailwind,html,css&theme=dark" alt="Stack Tecnológica" />
-</p>
+---
 
-<br/>
+## 🚀 Projetos & Entregas em Destaque
 
-<img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Rafael-Ponciano&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Estatísticas do GitHub" height="170" />
-<img src="./assets/languages.svg" alt="Linguagens Mais Utilizadas" height="170" />
-
-<br/><br/>
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Rafael-Ponciano&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-
-</div>
+| Projeto | Domínio | Descrição Técnica & Impacto |
+|:---|:---|:---|
+| **Plano Diretor BigQuery** | Data Lakehouse & BI | Migração completa de pipelines para a arquitetura Bronze ➔ Silver ➔ Gold no BigQuery (`pecai-prod`), alimentando dashboards corporativos de vendas, OTD e finanças. |
+| **Central ETL** | Ingestão & Automação | Plataforma central em Python para sincronização de dados entre Omie ERP, Vindi, Cobmais, AnyMarket, Google Sheets e GCP. |
+| **App Recebimento CD** | WMS & Logística | Sistema desktop/web para conferência óptica de pacotes, locks de concorrência e despacho por leitor de código de barras (DANFE 44 dígitos). |
+| **Caça-Leads** | Inteligência Comercial | Motor de prospecção B2B com scoring bidimensional (Dor Técnica × Capacidade Financeira) e geração automatizada de relatórios de auditoria. |
 
 ---
 

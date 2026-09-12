@@ -1,0 +1,56 @@
+<svg width="480" height="200" viewBox="0 0 480 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header {
+      font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #7aa2f7;
+    }
+    .item-title {
+      font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #c0caf5;
+    }
+    .item-desc {
+      font: 400 11.5px 'Segoe UI', Ubuntu, Sans-Serif;
+      fill: #7982a9;
+    }
+  </style>
+
+  <!-- Card Background -->
+  <rect x="0.5" y="0.5" width="479" height="199" rx="10" fill="#1a1b26" stroke="#24283b" stroke-width="1.5"/>
+
+  <!-- Title -->
+  <g transform="translate(20, 28)">
+    <circle cx="6" cy="-4" r="3" fill="#7aa2f7"/>
+    <text x="16" y="0" class="header">Especialidades de BI &amp; Analytics</text>
+  </g>
+
+  <!-- Items -->
+  <g transform="translate(20, 56)">
+    <!-- 1. Looker Studio -->
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="6" height="24" rx="3" fill="#4285F4"/>
+      <text x="16" y="11" class="item-title">Dashboards no Looker Studio</text>
+      <text x="16" y="24" class="item-desc">KPIs operacionais, OTD, sellers, metas e inadimplência</text>
+    </g>
+
+    <!-- 2. BigQuery -->
+    <g transform="translate(0, 35)">
+      <rect x="0" y="0" width="6" height="24" rx="3" fill="#669DF6"/>
+      <text x="16" y="11" class="item-title">Lakehouse &amp; Modelagem BigQuery</text>
+      <text x="16" y="24" class="item-desc">Arquitetura Bronze ➔ Silver ➔ Gold e views analíticas</text>
+    </g>
+
+    <!-- 3. Python ETL -->
+    <g transform="translate(0, 70)">
+      <rect x="0" y="0" width="6" height="24" rx="3" fill="#3572A5"/>
+      <text x="16" y="11" class="item-title">Pipelines ETL &amp; Automação Python</text>
+      <text x="16" y="24" class="item-desc">Ingestão de ERPs (Cobmais/Vindi/Omie) e Google Sheets API</text>
+    </g>
+
+    <!-- 4. Logistics Analytics -->
+    <g transform="translate(0, 105)">
+      <rect x="0" y="0" width="6" height="24" rx="3" fill="#10B981"/>
+      <text x="16" y="11" class="item-title">Analytics de Logística &amp; Operações</text>
+      <text x="16" y="24" class="item-desc">Otimização de fretes, roteirização e conferência em CD</text>
+    </g>
+  </g>
+</svg>

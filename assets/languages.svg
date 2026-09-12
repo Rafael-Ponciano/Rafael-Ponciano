@@ -1,69 +1,67 @@
-<svg width="495" height="175" viewBox="0 0 495 175" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="480" height="200" viewBox="0 0 480 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <style>
     .header {
-      font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
+      font: 600 16px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #7aa2f7;
-      animation: fadeInAnimation 0.8s ease-in-out forwards;
     }
     .lang-name {
-      font: 600 13px 'Segoe UI', Ubuntu, Sans-Serif;
+      font: 600 12.5px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #c0caf5;
     }
     .lang-pct {
-      font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif;
+      font: 400 11.5px 'Segoe UI', Ubuntu, Sans-Serif;
       fill: #7982a9;
-    }
-    .stat-bar {
-      rx: 5px;
     }
   </style>
 
-  <!-- Background -->
-  <rect x="0.5" y="0.5" width="494" height="174" rx="10" fill="#1a1b26" stroke="#24283b" stroke-width="1.5"/>
+  <!-- Card Background -->
+  <rect x="0.5" y="0.5" width="479" height="199" rx="10" fill="#1a1b26" stroke="#24283b" stroke-width="1.5"/>
 
   <!-- Title -->
-  <g transform="translate(25, 35)">
-    <text x="0" y="0" class="header">Linguagens &amp; Tecnologias Mais Utilizadas</text>
+  <g transform="translate(20, 28)">
+    <circle cx="6" cy="-4" r="3" fill="#7aa2f7"/>
+    <text x="16" y="0" class="header">Linguagens &amp; Tecnologias Mais Usadas</text>
   </g>
 
   <!-- Multi-segment Progress Bar -->
-  <g transform="translate(25, 55)">
+  <g transform="translate(20, 48)">
     <mask id="bar-mask">
-      <rect x="0" y="0" width="445" height="10" rx="5" fill="white"/>
+      <rect x="0" y="0" width="440" height="9" rx="4.5" fill="white"/>
     </mask>
-    <!-- Python 42% -> 186.9px -->
-    <rect x="0" y="0" width="187" height="10" fill="#3572A5" mask="url(#bar-mask)"/>
-    <!-- SQL 33% -> 146.85px -->
-    <rect x="187" y="0" width="147" height="10" fill="#e38c00" mask="url(#bar-mask)"/>
-    <!-- TypeScript 15% -> 66.75px -->
-    <rect x="334" y="0" width="67" height="10" fill="#3178c6" mask="url(#bar-mask)"/>
-    <!-- Shell/Outros 10% -> 44.5px -->
-    <rect x="401" y="0" width="44" height="10" fill="#89e051" mask="url(#bar-mask)"/>
+    <!-- Python 42% -> 184.8px -->
+    <rect x="0" y="0" width="185" height="9" fill="#3572A5" mask="url(#bar-mask)"/>
+    <!-- SQL 33% -> 145.2px -->
+    <rect x="185" y="0" width="145" height="9" fill="#e38c00" mask="url(#bar-mask)"/>
+    <!-- TypeScript 15% -> 66px -->
+    <rect x="330" y="0" width="66" height="9" fill="#3178c6" mask="url(#bar-mask)"/>
+    <!-- Shell/Outros 10% -> 44px -->
+    <rect x="396" y="0" width="44" height="9" fill="#10B981" mask="url(#bar-mask)"/>
   </g>
 
-  <!-- Legend Items (Column 1) -->
-  <g transform="translate(25, 95)">
-    <!-- Python -->
-    <circle cx="6" cy="6" r="6" fill="#3572A5"/>
-    <text x="22" y="10" class="lang-name">Python <tspan class="lang-pct">(Pandas, BigQuery, ETL) — 42.0%</tspan></text>
-
-    <!-- SQL -->
-    <g transform="translate(0, 30)">
-      <circle cx="6" cy="6" r="6" fill="#e38c00"/>
-      <text x="22" y="10" class="lang-name">SQL <tspan class="lang-pct">(BigQuery Gold/Silver, PostgreSQL) — 33.0%</tspan></text>
+  <!-- Legend Items Grid -->
+  <g transform="translate(20, 80)">
+    <!-- Item 1: Python -->
+    <g transform="translate(0, 0)">
+      <circle cx="6" cy="6" r="5.5" fill="#3572A5"/>
+      <text x="18" y="10" class="lang-name">Python <tspan class="lang-pct">(Pandas, BigQuery, ETL) — 42%</tspan></text>
     </g>
-  </g>
 
-  <!-- Legend Items (Column 2) -->
-  <g transform="translate(25, 155)">
-    <!-- TypeScript -->
-    <circle cx="6" cy="-2" r="5" fill="#3178c6"/>
-    <text x="20" y="2" class="lang-name">TypeScript / React <tspan class="lang-pct">— 15.0%</tspan></text>
+    <!-- Item 2: SQL -->
+    <g transform="translate(0, 30)">
+      <circle cx="6" cy="6" r="5.5" fill="#e38c00"/>
+      <text x="18" y="10" class="lang-name">SQL <tspan class="lang-pct">(BigQuery Gold/Silver, Postgres) — 33%</tspan></text>
+    </g>
 
-    <!-- Shell / Scripts -->
-    <g transform="translate(230, 0)">
-      <circle cx="6" cy="-2" r="5" fill="#89e051"/>
-      <text x="20" y="2" class="lang-name">Shell / Bash &amp; Outros <tspan class="lang-pct">— 10.0%</tspan></text>
+    <!-- Item 3: TypeScript / React -->
+    <g transform="translate(0, 60)">
+      <circle cx="6" cy="6" r="5.5" fill="#3178c6"/>
+      <text x="18" y="10" class="lang-name">TypeScript / React <tspan class="lang-pct">(Interfaces &amp; SPAs) — 15%</tspan></text>
+    </g>
+
+    <!-- Item 4: Shell / Bash -->
+    <g transform="translate(0, 90)">
+      <circle cx="6" cy="6" r="5.5" fill="#10B981"/>
+      <text x="18" y="10" class="lang-name">Shell / Bash &amp; Outros <tspan class="lang-pct">(DevOps &amp; Automação) — 10%</tspan></text>
     </g>
   </g>
 </svg>
