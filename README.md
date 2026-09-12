@@ -29,8 +29,8 @@
 
 - 📊 **Business Intelligence & Dashboards Executivos:** Desenho, modelagem e sustentação de painéis analíticos no **Looker Studio**, monitorando KPIs críticos como *On-Time Delivery (OTD)* logístico, faturamento e margem de sellers, metas comerciais escalonadas (Meta 2 B2M), saúde e recorrência de carteira de clientes, e acompanhamento de inadimplência/recuperação de crédito.
 - 🏛️ **Modelagem Dimensional & Lakehouse no BigQuery:** Estruturação e manutenção da arquitetura em medalhão (**Bronze ➔ Silver ➔ Gold**) no **Google BigQuery**, consolidando fatos de negócio (pedidos no grão item, compras, devoluções, fretes, financeiro) e criando views analíticas otimizadas para consumo de BI de alta performance.
-- 🐍 **Engenharia de Dados & Pipelines de Automação (ETL):** Desenvolvimento de rotinas em **Python** (Pandas, BigQuery Client, Requests) para ingestão automatizada, higienização de bases cadastrais, integração com hubs de e-commerce (**AnyMarket**), gateways de pagamento/ERP (**Vindi**, **Cobmais**, **Omie**) e Google Sheets API.
-- 🚚 **Analytics para Operações & Logística:** Inteligência voltada para centros de distribuição (CD): auditoria e empilhamento de pedidos para mitigação de custos de frete fixo, otimização de rotas para coleta de peças em oficinas e análise de causas-raiz de devoluções.
+- 🚚 **Analytics Operacional & Logística:** Inteligência voltada para o Centro de Distribuição (CD) e transporte: auditoria e empilhamento inteligente de pedidos (B2M e B2C) para redução de custos de frete fixo, motor matemático de roteirização para coletas de peças em oficinas e análise de devoluções.
+- 🐍 **Engenharia de Dados & Automação (ETL):** Desenvolvimento de rotinas em **Python** (Pandas, BigQuery Client, Requests) para ingestão automatizada, higienização de bases cadastrais, integração com hubs (**AnyMarket**), gateways de pagamento/ERP (**Vindi**, **Cobmais**, **Omie**) e Google Sheets API.
 
 ---
 
@@ -75,8 +75,9 @@
 | Projeto | Escopo | Descrição Técnica & Impacto |
 |:---|:---|:---|
 | **Plano Diretor BigQuery** | Data Lakehouse & BI | Migração de pipelines analíticos para a arquitetura Bronze ➔ Silver ➔ Gold no BigQuery (`pecai-prod`), alimentando dashboards corporativos de vendas, OTD e finanças no Looker Studio. |
-| **Central ETL** | Ingestão & Automação | Plataforma central em Python para sincronização de dados entre Omie ERP, Vindi, Cobmais, AnyMarket, Google Sheets e GCP. |
-| **App Recebimento CD** | WMS & Operações | Sistema desktop/web para conferência de mercadorias no CD, locks de concorrência e expedição por leitor óptico (DANFE 44 dígitos). |
+| **Otimizadores de Frete B2M & B2C** | Inteligência Logística | Plataformas analíticas para agrupamento e empilhamento inteligente de pedidos próximos, eliminando custos duplicados de frete fixo no e-commerce e televendas. |
+| **Roteirizador de Devoluções** | Roteirização & Otimização | Motor matemático (Google OR-Tools VRP + OSRM) para roteirização e consolidação de paradas de coleta de peças em oficinas mecânicas clientes via Lalamove. |
+| **App Recebimento CD** | WMS & Operações | Sistema desktop/web para conferência óptica de mercadorias no CD, locks de concorrência e expedição rápida por leitor óptico (DANFE 44 dígitos). |
 
 <br/>
 
@@ -84,6 +85,7 @@
 
 | Projeto | Tipo | Descrição Técnica & Destaque |
 |:---|:---|:---|
+| **Central ETL** | Ingestão & Automação | Plataforma em Python/Flask desenvolvida para sincronização e orquestração de fluxos de dados entre múltiplos ERPs, APIs e GCP. |
 | **Caça-Leads** | Inteligência Comercial (B2B) | Motor autônomo de prospecção para venda de sites/sistemas com scoring bidimensional (Dor Técnica × Capacidade Financeira) e geração de relatórios de auditoria. |
 | **BarberFlow Ultra v3.1** | SaaS Multi-Tenant | Plataforma de gestão para barbearias com fila ao vivo por profissional, painel de estoque, agendamentos e métricas em React 19 + Shadcn/UI + Supabase. |
 | **Wall Street AI** | Terminal de Trading Cripto | Terminal quantitativo em React 19 + Three.js com motor de risco (Circuit Breaker) e execução na Binance Spot Testnet via HMAC-SHA256. |
