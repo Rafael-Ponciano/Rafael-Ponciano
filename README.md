@@ -70,12 +70,23 @@
 
 ## 🚀 Projetos & Entregas em Destaque
 
-| Projeto | Domínio | Descrição Técnica & Impacto |
+### 🏢 **Corporativo — Peça.aí (Logística, Dados & BI)**
+
+| Projeto | Escopo | Descrição Técnica & Impacto |
 |:---|:---|:---|
-| **Plano Diretor BigQuery** | Data Lakehouse & BI | Migração completa de pipelines para a arquitetura Bronze ➔ Silver ➔ Gold no BigQuery (`pecai-prod`), alimentando dashboards corporativos de vendas, OTD e finanças. |
+| **Plano Diretor BigQuery** | Data Lakehouse & BI | Migração de pipelines analíticos para a arquitetura Bronze ➔ Silver ➔ Gold no BigQuery (`pecai-prod`), alimentando dashboards corporativos de vendas, OTD e finanças no Looker Studio. |
 | **Central ETL** | Ingestão & Automação | Plataforma central em Python para sincronização de dados entre Omie ERP, Vindi, Cobmais, AnyMarket, Google Sheets e GCP. |
-| **App Recebimento CD** | WMS & Logística | Sistema desktop/web para conferência óptica de pacotes, locks de concorrência e despacho por leitor de código de barras (DANFE 44 dígitos). |
-| **Caça-Leads** | Inteligência Comercial | Motor de prospecção B2B com scoring bidimensional (Dor Técnica × Capacidade Financeira) e geração automatizada de relatórios de auditoria. |
+| **App Recebimento CD** | WMS & Operações | Sistema desktop/web para conferência de mercadorias no CD, locks de concorrência e expedição por leitor óptico (DANFE 44 dígitos). |
+
+<br/>
+
+### 💡 **Iniciativas Pessoais & Produtos SaaS Autônomos**
+
+| Projeto | Tipo | Descrição Técnica & Destaque |
+|:---|:---|:---|
+| **Caça-Leads** | Inteligência Comercial (B2B) | Motor autônomo de prospecção para venda de sites/sistemas com scoring bidimensional (Dor Técnica × Capacidade Financeira) e geração de relatórios de auditoria. |
+| **BarberFlow Ultra v3.1** | SaaS Multi-Tenant | Plataforma de gestão para barbearias com fila ao vivo por profissional, painel de estoque, agendamentos e métricas em React 19 + Shadcn/UI + Supabase. |
+| **Wall Street AI** | Terminal de Trading Cripto | Terminal quantitativo em React 19 + Three.js com motor de risco (Circuit Breaker) e execução na Binance Spot Testnet via HMAC-SHA256. |
 
 ---
 
